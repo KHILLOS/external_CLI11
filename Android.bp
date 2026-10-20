@@ -1,0 +1,17 @@
+package {
+    default_applicable_licenses: ["external_cli11_license"],
+}
+
+license {
+    name: "external_cli11_license",
+    license_kinds: ["SPDX-license-identifier-BSD-3-Clause"],
+    license_text: ["LICENSE"],
+}
+
+cc_library_headers {
+    name: "cli11",
+    export_include_dirs: ["include"],
+    vendor_available: true,
+    host_supported: true,
+    apex_available: true,
+}
