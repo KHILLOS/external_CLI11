@@ -1,0 +1,21 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/CLI11
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
+
+name: "CLI11"
+description: "CLI11 is a command line parser for C++11 and beyond that provides a rich feature set with a simple and intuitive interface."
+third_party {
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 10
+    day: 21
+  }
+  homepage: "https://github.com/CLIUtils/CLI11"
+  identifier {
+    type: "Git"
+    value: "https://github.com/CLIUtils/CLI11"
+    version: "cbd58a3"
+    closest_version: "2.7.2"
+  }
+}
