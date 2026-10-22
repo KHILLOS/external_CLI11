@@ -21,7 +21,7 @@
   - Added `min_sdk_version: "29"`, `sdk_version: "current"`
   - Added `apex_available` with `//apex_available:anyapex` + `//apex_available:platform`
   - Kept `host_supported: true`, `vendor_available: true`
-  - Added `cflags: ["-Wall", "-Werror"]`
+  - Kept `cflags: ["-Wall", "-Werror"]` (from BlissOS)
 
 ### 2. AOSP 17 Compliance Metadata Files (NEW)
 **Files:** `METADATA`, `NOTICE`, `MODULE_LICENSE_BSD`, `OWNERS`

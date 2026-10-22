@@ -27,8 +27,8 @@ BlissOS Android.bp → UPSTREAM Android.bp (commit d63ebed):
 | (no target config) | target: linux_bionic + windows | ✓ Added |
 | (no min_sdk_version) | min_sdk_version: "29" | ✓ Added |
 | (no sdk_version) | sdk_version: "current" | ✓ Added |
-| apex_available: true | apex_available: [anyapex, platform] | ✓ Fixed/expanded |
-| (no cflags) | cflags: ["-Wall", "-Werror"] | ✓ Added |
+| (none) | apex_available: [anyapex, platform] | ✓ Added (AOSP 17 convention) |
+| cflags: ["-Wall","-Werror"] | cflags: ["-Wall","-Werror"] | ✓ Kept |
 
 All extensions align with AOSP 17 conventions (reference: external/fmtlib).
 
