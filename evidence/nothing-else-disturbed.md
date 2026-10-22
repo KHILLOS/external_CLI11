@@ -41,8 +41,8 @@ These are REQUIRED for AOSP 17, not functional changes:
 
 ## Diff Summary
 ```
-Files changed: 4
-Insertions: ~100 (metadata boilerplate)
+Files changed: 5 (Android.bp + 4 metadata files)
+Insertions: ~150 (metadata boilerplate + AOSP 17 Android.bp extensions)
 Deletions: 0
 Source logic changes: 0
 Build system: Extended with AOSP 17 conventions

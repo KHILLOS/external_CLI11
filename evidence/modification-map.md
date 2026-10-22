@@ -35,7 +35,7 @@ All source/header files already have SPDX-License-Identifier: BSD-3-Clause heade
 No additional SPDX headers needed.
 
 ## Summary
-- **Total files modified:** 4 (4 new metadata files)
+- **Total files modified:** 5 (Android.bp + 4 new metadata files)
 - **Source files unchanged:** Yes (all already have SPDX headers)
 - **Logic/behavior changes:** None
 - **Build system changes:** Extended Android.bp with AOSP 17 conventions (functional equivalent + more)
